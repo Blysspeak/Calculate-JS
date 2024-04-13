@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.containerGlobal {
+	margin: 0 auto;
+	align-items: center;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.containerCalculate {
+	width: 100%;
+	height: 90vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 12px;
+}
+
+.inputCalculate {
+	font-size: 20px;
+	padding: 0 25px;
+	border-radius: 10px;
+	margin: 0 auto;
+	background: rgba(128, 128, 128, 0.25);
+	border: 0;
+	height: 50px;
+	width: 600px;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+p {
+	display: block;
+	padding: 5px;
+	background: rgba(46, 139, 86, 0.384);
+	border-radius: 5px;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0;
+	display: block;
+}
+
+button {
+	box-sizing: border-box;
+	padding: 15px;
+	background: #3e8da563;
+	font-size: 20px;
+	font-weight: 600;
+	border-radius: 20px;
+	border: 0;
+	transition: all 0.3s ease;
+	border: 2px solid #ffffff00;
+}
+
+button:hover {
+	border: 2px solid #001c27;
+}
